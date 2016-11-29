@@ -1,0 +1,22 @@
+{
+  "name": "browserify-github-pages",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unframework/browserify-github-pages.git"
+  },
+  "author": "Nick Matantsev <nick.matantsev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unframework/browserify-github-pages/issues"
+  },
+  "homepage": "https://github.com/unframework/browserify-github-pages#readme",
+  "dependencies": {
+    "browserify": "^13.1.1"
+  }
+}
