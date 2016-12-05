@@ -6,7 +6,7 @@ window.onload = function () {
     document.body.appendChild(document.createTextNode('Hello World!'));
 
     var link = document.createElement('a');
-    link.src = 'https://github.com/unframework/browserify-github-pages';
+    link.href = 'https://github.com/unframework/browserify-github-pages';
     link.style.display = 'block';
     link.style.fontSize = '18pt';
     link.appendChild(document.createTextNode('See deployment quickstart instructions'));
