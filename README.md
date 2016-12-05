@@ -1,6 +1,6 @@
 # browserify-github-pages
 
-The purpose of this repo is to illustrate how to set up your open-source [Browserify](http://browserify.org/) project to automatically build and deploy onto the GitHub Pages using [Travis CI](https://travis-ci.org). Just copy the [stock .travis.yml](.travis.yml) to your repo, no changes needed, and configure Travis.
+The purpose of this repo is to illustrate how to set up your open-source [Browserify](http://browserify.org/)-based project to automatically build and deploy onto the GitHub Pages using [Travis CI](https://travis-ci.org). Just copy the [stock .travis.yml](.travis.yml) to your repo, no changes needed, and configure Travis.
 
 See instructions below.
 
