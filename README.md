@@ -1,12 +1,10 @@
 # browserify-github-pages
 
-The purpose of this repo is to illustrate how to set up your open-source [Browserify](http://browserify.org/)-based project to automatically build and deploy onto the GitHub Pages using [Travis CI](https://travis-ci.org). Just copy the [stock .travis.yml](.travis.yml) to your repo, no changes needed, and configure Travis.
+The purpose of this repo is to help quickly get you started on auto-deploying your open-source [Browserify](http://browserify.org/)-based project onto GitHub Pages using [Travis CI](https://travis-ci.org). Just copy the [stock .travis.yml](.travis.yml) to your repo, no changes needed, and configure Travis.
 
-See instructions below.
+I have been using Browserify to organize a lot of my side-projects, and wanted a quick way to get them up online. This is the quick cheatsheet I ended up with. See instructions below.
 
-This repo also works as a simple "hello world" Browserify example (see `index.js` as the main entry point). The [.travis.yml](.travis.yml) file is set up to compile the `index.js` file in place, then automatically commit and force-push the result to the `gh-pages` branch of the repository. Results are accessible under the standard GitHub Pages URL for this repo: https://unframework.github.io/browserify-github-pages/
-
-This is a quickstart tutorial on how to get this process set up on your own repository.
+This repo also works as a simple "hello world" Browserify example (see `index.js` as the main entry point) that illustrates the end result. The [.travis.yml](.travis.yml) file is set up to compile the `index.js` file in place, then automatically commit and force-push the result to the `gh-pages` branch of the repository. Results are accessible under the standard GitHub Pages URL for this repo: https://unframework.github.io/browserify-github-pages/
 
 ## GitHub Pages Publishing in Your Project
 
