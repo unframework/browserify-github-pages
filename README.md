@@ -25,7 +25,8 @@ Let's go:
     - check `public_repo` scope
     - copy generated token to clipboard
 - enable Travis CI on your repository
-    - go to "add repository" (the plus sign in the sidebar)
+    - https://travis-ci.org/
+    - click "add repository" (the plus sign in the sidebar)
     - find your repo in the list and enable CI (may need to "Sync Account" first)
     - click on gear icon (repo settings)
     - under `Environment Variables` add a `GH_PUBLISH_TOKEN` variable and paste token string as its value
