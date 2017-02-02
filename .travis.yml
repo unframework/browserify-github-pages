@@ -11,7 +11,7 @@ after_success:
   - if [ "$TRAVIS_PULL_REQUEST" = false ]; then
       printf '#!/bin/sh -e\necho %s' "$GH_PUBLISH_TOKEN" > gh-publish-pass.sh && chmod u+x gh-publish-pass.sh &&
       (
-        [ -f index.html ] || echo '<script src="index.js"></script>' > index.html
+        [ -f index.html ] || echo '<body><script src="index.js"></script></body>' > index.html
       ) &&
       (
         node_modules/.bin/browserify index.js > index-browserify.js &&
